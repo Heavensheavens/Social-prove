@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.main-container{
+    background-color: white;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: auto;
+    height: auto;  
+    padding: 20px;
+    margin-top: 20px;
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    background-size:24%;
+    background-repeat: no-repeat;
+    margin-left: 2.5%;
+   /*  margin-right: 0.2%; */
+}
+
+/* How many users love this product */
+
+.users{
+    font-size: 30px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: hsl(300, 43%, 22%);
+    max-width: 50%;
+}
+
+.reviews{   /* container holding the stars and text properties */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column; 
+    gap: 5px; 
+    margin-right: 20%;
+    max-width: 80%;
+    padding: 10px;
+
+    }
+
+/* we only provide great products */
+.product{
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:hsl(303, 10%, 53%);
+    max-width: 80%; 
+}
+
+.rrv1{
+    background-color:#F8F2F9;
+    margin-left: -70px;
+    width: 180%;
+    max-width: 200%;
+    border-radius: 5px;
+    color:  hsl(300, 43%, 22%);
+    line-height: 35px;  
+}
+
+.rrv2{
+    background-color:#F8F2F9;
+    width: 180%;
+    max-width: 200%;
+    margin-left: -30px;
+    border-radius: 5px;
+    color: hsl(300, 43%, 22%);
+    line-height: 35px;
+    
+}
+
+.rrv3{
+    background-color:#F8F2F9;
+    width:190%;
+    max-width: 200%;
+    margin-left: 2px;
+    border-radius: 5px;
+    color: hsl(300, 43%, 22%);
+    line-height: 35px;
+}
+
+/* rezising the start images */
+.resizeImg{
+   height: 10px;
+}
+
+/* reduce text size to fit start size */
+.textResize{
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 20px; 
+}
+
+/* meet our customers */
+
+
+.cover{
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%; 
+    justify-content: space-between;
+    gap: 8px;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    margin-top: 20px;
+
+}
+
+/* Colton Smith */
+.profiles1{
+    background-color:hsl(300, 43%, 22%);
+    max-width: 34%;
+    height: 175px;
+    padding: 10px;
+    margin-top: -15px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.imgColton{
+  border-radius: 40px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.name{
+    color: white;
+}
+
+.tag{
+    color: hsl(333, 80%, 67%);
+}
+
+.comment{
+    color: white;
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.info{
+    margin-top: -25px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+/* Irene Roberts */
+
+.profiles2{
+    background-color:hsl(300, 43%, 22%);
+    max-width: 32%;
+    height: 175px;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.imgIrene2{
+  border-radius: 40px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.name2{
+    color: white;
+}
+
+.tag2{
+    color: hsl(333, 80%, 67%);
+}
+
+.comment2{
+    color: white;
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.info2{
+    margin-top: -25px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+/* Anne Wallace */
+
+.profiles3{
+    background-color:hsl(300, 43%, 22%);
+    max-width: 32%;
+    height: 175px;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.imgAnne3{
+  border-radius: 40px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.name3{
+    color: white;
+}
+
+.tag3{
+    color: hsl(333, 80%, 67%);
+}
+
+.comment3{
+    color: white;
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+.info3{
+    margin-top: -25px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+/* now the page is responsive */
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .users {
+        max-width: 90%;
+    }
+    .reviews {
+        margin-right: 0;
+        width: 100%;
+    }
+    .product {
+        max-width: 100%;
+    }
+    .cover {
+        width: 100%;
+    }
+    .profiles1,
+    .profiles2,
+    .profiles3 {
+        max-width: 100%;
+    }
+
+    .main-container{
+    width: 100%;
+    }
+}
+
+/* min width */
+/* 
+@media only screen and (min-width: 460px) {
+    .container {
+        flex-direction: column;
+    }
+    .users {
+        min-width: 80%;
+    }
+    .reviews {
+        margin-right: 0;
+    }
+    .product {
+        min-width: 80%;
+    }
+    .cover {
+        width: 80%;
+    }
+    .profiles1,
+    .profiles2,
+    .profiles3 {
+        min-width: 80%;
+    }
+
+    .main-container{
+        max-width: 100%;
+    }
+} */
